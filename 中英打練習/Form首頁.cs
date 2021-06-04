@@ -31,10 +31,10 @@ namespace 中英打練習
 
         private void btnStart_Click(object sender, EventArgs e)
         {
-            Form遊戲畫面 f1 = new Form遊戲畫面();  //示例項化一個 Form遊戲畫面 視窗
-            f1.lblTimeSet2.Text = cboTime.Text;  //設置 Form遊戲畫面 中 lblTimeSet2 的值
+            Form遊戲畫面 f1 = new Form遊戲畫面();        //示例項化一個 Form遊戲畫面 視窗
+            f1.lblTimeSet2.Text = cboTime.Text;         //設置 Form遊戲畫面 中 lblTimeSet2 的值
             f1.lblDifficult2.Text = cboDifficult.Text;  //設置 Form遊戲畫面 中 lblDifficult2 的值
-            f1.lblLanguage2.Text = cboLanguage.Text;  //設置 Form遊戲畫面 中 lblLanguage2 的值
+            f1.lblLanguage2.Text = cboLanguage.Text;    //設置 Form遊戲畫面 中 lblLanguage2 的值
             f1.ShowDialog();
         }
 
